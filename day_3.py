@@ -20,7 +20,7 @@ def calc_houses_visited ( instructions, num_workers ):
     # Each worker takes an instruction in turn
     worker = 0
     
-    for step in input:
+    for step in instructions:
 
         worker = ( worker + 1 ) %  num_workers
      
