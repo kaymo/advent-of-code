@@ -22,7 +22,7 @@ def calc_houses_visited ( instructions, num_workers ):
     
     for step in instructions:
 
-        worker = ( worker + 1 ) %  num_workers
+        worker = ( worker + 1 ) % num_workers
      
         # Move the worker according to their instruction
         if step == 'v':
