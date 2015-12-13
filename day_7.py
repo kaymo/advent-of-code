@@ -1,6 +1,6 @@
 #
 # Day 7
-# Input: 
+# Input: A series of binary operations, representing wires in a circuit.
 #
 
 UNKNOWN = -1
